@@ -7,4 +7,4 @@ lektor-markdown-highlighter = 0.2
 lektor-markdown-excerpt = 0.1
 
 [servers.ghpages]
-target = ghpages+https://python-guadalajara/python-guada-web
+target = ghpages://python-guadalajara/python-guada-web
