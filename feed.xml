@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Python Guadalajara</title>
+  <id>urn:uuid:7d849efd-0675-302c-923e-a31c244b2942</id>
+  <updated>2017-10-24T20:46:33.870795Z</updated>
+  <link href="https://python-guadalajara.github.io/python-guada-web/" />
+  <link href="https://python-guadalajara.github.io/python-guada-web/feed.xml" rel="self" />
+  <author>
+    <name></name>
+  </author>
+  <generator uri="https://github.com/ajdavis/lektor-atom" version="0.2">Lektor Atom Plugin</generator>
+</feed>
