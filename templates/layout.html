@@ -57,11 +57,9 @@
             <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
             <nav class="site-nav">
                   {% if this._path == '/' %} {% endif
-                    %}<a href="{{ '/'|url }}">Home</a>
+                    %}<a href="{{ '/'|url }}">Inicio</a>
                   {% for href, title in [
                     ['/blog', 'Blog'],
-                    ['/projects', 'Projects'],
-                    ['/about', 'About']
                   ] %}
                     {% if this.is_child_of(href) %} {% endif
                       %}<a href="{{ href|url }}">{{ title }}</a>
@@ -85,7 +83,7 @@
   <footer class="center">
     <div class="measure">
       <small>
-          &copy; Copyright 2016 by Eswar Malla.
+          &copy; Copyright 2017 by Python Guadalajara.
         Theme <a href="https://github.com/eswarm/piktor">Piktor</a> by <a href="http://eswarm.in">Eswar Malla</a>, fork of <a href="https://github.com/johnotander/pixyll">Pixyll</a>
       </small>
     </div>
